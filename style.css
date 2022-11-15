@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+header{}
+.announcement {
+  background: #605563;
+  color: #fff;
+  text-align: center;
+}
+.announcement p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.logo img{
+  width: 150px;
+}
+nav{}
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li{}
+nav ul li a{
+  color: #605563;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 15px;
+  display: block;
+}
